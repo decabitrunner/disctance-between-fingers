@@ -9,3 +9,4 @@ A project providing something no one would need but why not?
 * Than it processes the values to basic avreages and dumps them to a json file.
 * Plots the results on a graph.
 
+## [settings.json](https://github.com/decabitrunner/disctance-between-fingers/blob/main/settings.json)
