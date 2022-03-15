@@ -4,6 +4,5 @@
   "number_of_distances": 100,
   "graph_against": "sample count",
   "display": true,
-  "save_raw_data": true,
-  "save_graph": true
+  "save_raw_data": true
 }
