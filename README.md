@@ -10,3 +10,22 @@ A project providing something no one would need but why not?
 * Plots the results on a graph.
 
 ## [settings.json](https://github.com/decabitrunner/disctance-between-fingers/blob/main/settings.json)
+
+```json
+{
+  "finger_1": "Thumb",
+  "finger_2": "Index Finger",
+  "number_of_distances": 100,
+  "graph_against": "sample count",
+  "display": true,
+  "save_raw_data": true
+}
+```
+Here you adjust the settings for the script.
+
+
+| Feild         | Are           | 
+| ------------- |:-------------:| 
+| `"finger_1"` & `"finger_2"`   |
+| col 2 is                      |
+| zebra stripes | are neat      |
