@@ -21,11 +21,19 @@ A project providing something no one would need but why not?
   "save_raw_data": true
 }
 ```
-Here you adjust the settings for the script.
+### Here you adjust the settings for the script.
 
+The aceptable data for fingers 
+```
+['Thumb', 'Index Finger', 'Middle Finger', 'Ring Finger', 'Pinky Finger']
+```
 
-| Feild         | Are           | 
-| ------------- |:-------------:| 
-| `"finger_1"` & `"finger_2"`   |
-| col 2 is                      |
-| zebra stripes | are neat      |
+The aceptable data for other values
+
+| Key           | type          | Special restrictions  |
+| ------------- |:-------------:| -----:|
+| `"number_of_distances"`| int| Positive|
+| `"graph_against"`     | str    |   "sample count" or "minutes" |
+| `"display"` | boolean      |    None not allowed |
+|  `"display"`  | boolean       |    None not allowed   |
+|   `"save_raw_data"` | boolean |    None not allowed      |
